@@ -1,37 +1,63 @@
-body {
-    background-color: lightgray;
-    
-}
-div {
-    margin-top: 10px;
-    border: 3px solid white;
-    border-radius: 10pt;
-    background-color: white;
-}
-header {
-    background-color: red;
-    color: white;
-    padding-top: 10px;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-h1 {
-    font-size: 50pt;
-    font-family: "Arial Black", Gadget, sans-serif;
-}
-h2 {
-    padding-bottom: 15px;
-    font-size: 28pt;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-main {
-    border-bottom: 30px red solid;
-    border-radius: 10pt;
+* {
+    box-sizing: border-box;
 }
 
-main {
-    font-size: 30pt;
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+/* layout */
+
+.name-container {
+    margin: 25vh auto 20vh auto;
+    padding: 10px 0 20px 0;
+    width: 500px;
     text-align: center;
-    font-family: cursive;
+}
+
+.name-container p {
+    margin: 10px;
+}
+
+.name-info {
+    padding: 10px;
+}
+
+
+/* styles */
+
+
+.name-container {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: red;
+}
+
+.name-greeting {
+    color: white;
+    font-weight: bold;
+    line-height: 38pt;
+}
+
+.hello {
+    font-size: 72pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.name-is {
+    font-size: 40pt;
+    font-style: italic;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.name-info {
+    font-family: "Comic Neue", cursive;
+    background-color: white;
+}
+
+.name {
+    font-size: 40pt;
 }
